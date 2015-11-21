@@ -3,7 +3,7 @@ Feature: Testing selector performance
   I try different selectors many time
   So I can check which selector is the fastest
     
-  Scenario Outline: Checking selector
+  Scenario Outline: Checking selector - <type>: <selector>
     Given test page is opened
     When the <type>: "<selector>" selector is measured <number> times
         
